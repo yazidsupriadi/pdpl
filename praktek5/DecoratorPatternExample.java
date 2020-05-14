@@ -13,6 +13,8 @@ public class DecoratorPatternExample {
 		FloorDecorator floorDecorator = new FloorDecorator();
 		floorDecorator.setTheComponent(withoutDecorator);
 		floorDecorator.makeHouse();
+        floorDecorator.makeHouse();
+        
 		
 		System.out.println("_________________");
 		
